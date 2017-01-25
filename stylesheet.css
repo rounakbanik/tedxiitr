@@ -35,6 +35,10 @@
    footer div.col-md-2, footer div.col-md-5 {
   	text-align: center;
   }
+
+  .flex {
+  	justify-content: center;
+  }
   
 
 }
@@ -50,11 +54,12 @@ body {
 
 .navbar-inverse {
 	border-radius: 0px;
-	background-color: #14213D;
+	background-color: #112C3B;
 	margin: 0px;
 	color: white;
 	padding: 10px;
 	font-size: 110%;
+	border: 1px solid rgba(256, 256, 256, 0.1);
 }
 
 .normal-links {
@@ -139,7 +144,7 @@ body {
 
 .main-frame {
 	background: url(images/background.png) no-repeat center center fixed;
-	background-size: cover;
+	background-size: 100% 100%;
 	height: 88vh;
 }
 
@@ -151,6 +156,28 @@ body {
 	margin-top: 30px;
 }
 
+.flex {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: flex-end;
+}
+
+.flex div {
+	padding: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.venue {
+	
+}
+
+.venue p {
+	border-left: 1px solid white;
+	margin-left: 5px;
+	padding-left: 15px;
+}
+
 /* Theme Styles */
 
 .theme {
@@ -159,7 +186,7 @@ body {
 
 .description {
 	padding: 30px;
-	color: #14213D;
+	color: #112C3B;
 }
 
 .description h1 {
@@ -189,11 +216,11 @@ body {
 
 .nav-tabs li.active a {
 	background-color: #eee !important;
-	color: #14213D !important;
+	color: #112C3B !important;
 }
 
 .nav-tabs li a:hover {
-	color: #14213D !important;
+	color: #112C3B !important;
 	background-color: #eee !important;
 }
 
@@ -297,7 +324,7 @@ div.dp div {
 
 /* Footer Styles */
 footer {
-	background-color: #14213D;
+	background-color: #112C3B;
 	color: #9A9FA0;
 	padding: 50px;
 	font-weight: 300;
