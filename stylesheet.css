@@ -265,8 +265,8 @@ body {
 }
 
 div.dp {
-	height: 225px !important;
-	width: 175px !important;
+	height: 225px;
+	width: 175px;
 	margin: 0 auto;
 	opacity: 1;
 	position: relative;
