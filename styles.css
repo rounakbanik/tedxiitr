@@ -26,11 +26,15 @@
 
   .speakers-row div.col-md-4 {
 	padding: 5px !important;
-   }
+  }
 
    .tab-div {
    	padding: 5px !important;
-   }
+  }
+
+   footer div.col-md-2, footer div.col-md-5 {
+  	text-align: center;
+  }
   
 
 }
@@ -203,11 +207,11 @@ body {
 
 /* Speakers Styles */
 
-.speakers {
+.speakers, .sponsors, .team {
 	padding: 50px;
 }
 
-.speakers h1, .speaker-name {
+.speakers h1, .speaker-name, .sponsors h1, .team h1 {
 	font-family: 'Oleo Script', cursive;
 }
 
@@ -234,4 +238,56 @@ body {
 .speaker p {
 	padding: 25px;
 	font-size: 115%;
+}
+
+/* Sponsors Styles */
+
+.sponsors div.col-md-3 {
+	padding: 40px;
+}
+
+.sponsors div.col-md-3 div {
+	text-align: center;
+}
+
+
+.sponsors img {
+	height: 80px;
+	max-width: 250px;
+}
+
+/* Team Styles */
+
+footer {
+	background-color: #14213D;
+	color: #9A9FA0;
+	padding: 50px;
+	font-weight: 300;
+}
+
+address, footer a, footer p {
+	font-size: 113%;
+}
+
+footer p {
+	margin-top: 15px;
+	padding-right: 30px;
+}
+
+footer a {
+	color: #9A9FA0;
+}
+
+footer h3 {
+	color: #E0E0E0;
+}
+
+.footer-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+footer div.col-md-5 {
+	padding-left: 50px;
 }
