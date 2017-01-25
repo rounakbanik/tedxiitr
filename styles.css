@@ -7,6 +7,30 @@
   	margin-left: 0px !important;
   	text-align: center !important;
   }
+
+  .description {
+  	text-align: center !important; 
+  }
+
+  .description h1, .speakers h1 {
+  	font-size: 200% !important;
+  }
+
+  .description p, .tab-content div, .speaker p {
+	font-size: 100% !important;
+  }
+
+  .nav-tabs a {
+  	font-size: 80% !important;
+  }
+
+  .speakers-row div.col-md-4 {
+	padding: 5px !important;
+   }
+
+   .tab-div {
+   	padding: 5px !important;
+   }
   
 
 }
@@ -121,4 +145,93 @@ body {
 	margin-left: 50px;
 	font-weight: lighter;
 	margin-top: 30px;
+}
+
+/* Theme Styles */
+
+.theme {
+	padding: 50px;
+}
+
+.description {
+	padding: 30px;
+	color: #14213D;
+}
+
+.description h1 {
+	font-size: 400%;
+	margin-top: 0px;
+
+}
+
+.description p, .tab-content div {
+	font-size: 150%;
+}
+
+.tab-div {
+	padding: 30px;
+}
+
+.nav-tabs {
+	border: 0px;
+}
+
+.nav-tabs a {
+	font-size: 150%;
+	font-weight: 400;
+	color: #aaa !important;
+	border: 0px !important;
+}
+
+.nav-tabs li.active a {
+	background-color: #eee !important;
+	color: #14213D !important;
+}
+
+.nav-tabs li a:hover {
+	color: #14213D !important;
+	background-color: #eee !important;
+}
+
+.tab-content {
+	border: 4px solid #eee;
+	/* Remove height once content is available */
+	min-height: 400px;
+	padding: 30px;
+	padding-top: 40px;
+}
+
+/* Speakers Styles */
+
+.speakers {
+	padding: 50px;
+}
+
+.speakers h1, .speaker-name {
+	font-family: 'Oleo Script', cursive;
+}
+
+.speakers-row div.col-md-4 {
+	padding: 30px;
+	/*height: 150px;
+	border: 1px solid orange;*/
+}
+
+.speakers-row div.col-md-4 div {
+	/*border: 1px solid red;
+	height: 90px;*/
+}
+
+.speaker {
+	box-shadow: 10px 10px 5px 0px rgba(245,240,245,1);
+}
+
+.speaker img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.speaker p {
+	padding: 25px;
+	font-size: 115%;
 }
