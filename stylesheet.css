@@ -3,6 +3,10 @@
   	font-size: 95% !important;
   }
 
+  .main-frame {
+  	background-size: cover !important;
+  }
+
   .main-frame-content {
   	margin-left: 0px !important;
   	text-align: center !important;
