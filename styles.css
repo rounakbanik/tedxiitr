@@ -258,6 +258,44 @@ body {
 
 /* Team Styles */
 
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.dp {
+	height: 225px;
+	width: 175px;
+	margin: 0 auto;
+	opacity: 1;
+	position: relative;
+	transition: opacity 0.2s ease-in-out;
+}
+
+div.dp:hover {
+	opacity: 0.5;
+}
+
+div.dp div {
+	position: absolute;
+	bottom: 35px;
+	left: 35%;
+}
+
+.team h3 {
+	font-weight: 400;
+}
+
+.team p {
+	line-height: 1em;
+}
+
+.team-row {
+	margin-bottom: 40px;
+}
+
+/* Footer Styles */
 footer {
 	background-color: #14213D;
 	color: #9A9FA0;
@@ -309,3 +347,4 @@ header {
 .nav-up {
     top: -120px;
 }
+

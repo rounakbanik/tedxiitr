@@ -68,5 +68,11 @@ $(document).ready(function() {
         });
     });
 
+    $(".dp").hover(function() {
+        $(this).children().removeClass("hidden");
+    }, function() {
+        $(this).children().addClass("hidden");
+    });
+
 
 });
