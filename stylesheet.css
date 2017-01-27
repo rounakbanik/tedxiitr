@@ -64,7 +64,7 @@ body {
 	color: white;
 	padding: 10px;
 	font-size: 110%;
-	border: 1px solid rgba(256, 256, 256, 0.1);
+	border: 0px;
 }
 
 .normal-links {
@@ -149,7 +149,7 @@ body {
 
 .main-frame {
 	background: url(images/background.png) no-repeat center center fixed;
-	background-size: 100% 100%;
+	background-size: cover;
 	height: 88vh;
 }
 
