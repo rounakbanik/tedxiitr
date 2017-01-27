@@ -43,7 +43,20 @@
   .flex {
   	justify-content: center;
   }
+
+  .underline {
+	padding-bottom: 10px !important;
+  }
+
+   .team .team-description, .sponsors-description {
+	font-size: 100% !important;
+	margin-bottom: 30px;
+  }
   
+  .team p {
+	/*line-height: 1em;*/
+	font-size: 100% !important;
+  }
 
 }
 
@@ -137,6 +150,7 @@ body {
 
 .jumbotron h1, .jumbotron h3 {
 	font-weight: lighter !important;
+	color: #EDEDED !important;
 }
 
 .jumbotron p {
@@ -148,7 +162,7 @@ body {
 }
 
 .main-frame {
-	background: url(images/background.png) no-repeat center center fixed;
+	background: url(images/background2.png) no-repeat center center fixed;
 	background-size: cover;
 	height: 88vh;
 }
@@ -156,7 +170,7 @@ body {
 .main-frame-content {
 	color: #ddd;
 	padding: 15px;
-	margin-left: 50px;
+	margin-left: 80px;
 	font-weight: lighter;
 	margin-top: 30px;
 }
@@ -195,13 +209,13 @@ body {
 }
 
 .description h1 {
-	font-size: 400%;
+	font-size: 350%;
 	margin-top: 0px;
 
 }
 
 .description p, .tab-content div {
-	font-size: 150%;
+	font-size: 130%;
 }
 
 .tab-div {
@@ -237,6 +251,11 @@ body {
 	padding-top: 40px;
 }
 
+.underline {
+	padding-bottom: 15px;
+	border-bottom: 1px solid red;
+}
+
 /* Speakers Styles */
 
 .speakers, .sponsors, .team {
@@ -244,11 +263,15 @@ body {
 }
 
 .speakers h1, .speaker-name, .sponsors h1, .team h1 {
-	font-family: 'Oleo Script', cursive;
+	/*font-family: 'Oleo Script', cursive;*/
+	color: #112C3B;
+	font-weight: 400;
 }
 
 .speakers-row div.col-md-4 {
 	padding: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
 	/*height: 150px;
 	border: 1px solid orange;*/
 }
@@ -259,7 +282,7 @@ body {
 }
 
 .speaker {
-	box-shadow: 10px 10px 5px 0px rgba(245,240,245,1);
+	box-shadow: 5px 5px 5px 0px rgba(245,240,245,1);
 }
 
 .speaker img {
@@ -297,12 +320,14 @@ body {
 }
 
 div.dp {
-	height: 225px;
-	width: 175px;
+	height: 160px;
+	width: 160px;
 	margin: 0 auto;
 	opacity: 1;
 	position: relative;
 	transition: opacity 0.2s ease-in-out;
+	border-radius: 100%;
+	background-size: 100% 100%;
 }
 
 div.dp:hover {
@@ -320,12 +345,19 @@ div.dp div {
 }
 
 .team p {
-	line-height: 1em;
+	/*line-height: 1em;*/
+	font-size: 125%;
 }
 
 .team-row {
 	margin-bottom: 40px;
 }
+
+.team .team-description, .sponsors-description {
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
 
 /* Footer Styles */
 footer {
