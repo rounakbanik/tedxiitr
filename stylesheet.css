@@ -12,11 +12,15 @@
   	text-align: center !important;
   }
 
+  .hidden.mobile-show {
+  	display: block !important;
+  }
+
   .description {
   	text-align: center !important; 
   }
 
-  .description h1, .speakers h1 {
+  .description h1, .speakers h1, .team h1, .sponsors h1 {
   	font-size: 200% !important;
   }
 
@@ -51,6 +55,14 @@
    .team .team-description, .sponsors-description {
 	font-size: 100% !important;
 	margin-bottom: 30px;
+  }
+
+  .speakers-description {
+  	font-size: 100% !important;
+  }
+
+  .speakers h2 {
+  	font-size: 150% !important;
   }
   
   .team p {
@@ -295,6 +307,12 @@ body {
 	font-size: 115%;
 }
 
+/* Previous Speakers Styles */
+
+.prev-speakers-row {
+	margin-top: 50px;
+}
+
 /* Sponsors Styles */
 
 .sponsors div.col-md-3 {
@@ -319,7 +337,7 @@ body {
 	justify-content: center;
 }
 
-div.dp {
+div.dp, div.dp-prev {
 	height: 160px;
 	width: 160px;
 	margin: 0 auto;
@@ -357,6 +375,10 @@ div.dp div {
 	font-size: 22px;
 	margin-bottom: 30px;
 }
+
+ .speakers-description {
+ 	font-size: 22px;
+ }
 
 
 /* Footer Styles */

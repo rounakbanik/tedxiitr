@@ -28,6 +28,8 @@ $(document).ready(function() {
         if (st > lastScrollTop && st > navbarHeight){
             // Scroll Down
             $('header').removeClass('nav-down').addClass('nav-up');
+            $('.navbar-toggle').addClass('collapsed');
+            $('.navbar-collapse').removeClass('in');
         } else {
             // Scroll Up
             if(st + $(window).height() < $(document).height()) {
