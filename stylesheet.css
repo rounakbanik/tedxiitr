@@ -315,18 +315,14 @@ body {
 
 /* Sponsors Styles */
 
-.sponsors div.col-md-3 {
-	padding: 40px;
-}
-
-.sponsors div.col-md-3 div {
-	text-align: center;
+.sponsor-container div {
+	margin: 10px;
 }
 
 
 .sponsors img {
-	height: 80px;
-	max-width: 250px;
+	height: 180px;
+	max-width: 600px;
 }
 
 /* Team Styles */
