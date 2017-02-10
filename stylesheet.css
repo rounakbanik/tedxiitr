@@ -9,6 +9,7 @@
 
   .main-frame-content {
   	margin-left: 0px !important;
+  	width: 100% !important;
   	text-align: center !important;
   }
 
@@ -158,6 +159,7 @@ body {
 	border-radius: 0px !important;
 	margin-bottom: 0px;
 	font-weight: 300 !important;
+	position: relative;
 }
 
 .jumbotron h1, .jumbotron h3 {
@@ -180,6 +182,8 @@ body {
 }
 
 .main-frame-content {
+	position: absolute;
+	top: 15%;
 	color: #ddd;
 	padding: 15px;
 	margin-left: 80px;
