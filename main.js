@@ -71,10 +71,18 @@ $(document).ready(function() {
         });
     });
 
-    $(".dp").hover(function() {
+    $(".dp, .dp-prev").hover(function() {
         $(this).children().removeClass("hidden");
     }, function() {
         $(this).children().addClass("hidden");
+    });
+
+    /* Popup Logic */
+    $('.open-popup-link').magnificPopup({
+        type:'inline',
+        midClick: true,
+        alignTop: false,
+        closeBtnInside: true
     });
 
 

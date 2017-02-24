@@ -71,6 +71,15 @@
 	font-size: 100% !important;
   }
 
+  .white-popup img {
+	  float: none !important;
+	  margin-right: 0px;
+  }
+
+  .white-popup {
+	  text-align: center !important;
+  }
+
 }
 
 body {
@@ -348,13 +357,24 @@ div.dp, div.dp-prev {
 	background-size: 100% 100%;
 }
 
-div.dp:hover {
-	opacity: 0.5;
+div.dp:hover, div.dp-prev:hover {
+	opacity: 0.8;
+}
+
+.dp-prev img {
+	height: 40px;
+	width: 40px;
 }
 
 div.dp div {
 	position: absolute;
 	bottom: 35px;
+	left: 35%;
+}
+
+div.dp-prev div {
+	position: absolute;
+	bottom: 50px;
 	left: 35%;
 }
 
@@ -432,6 +452,22 @@ header {
 
 .nav-up {
     top: -120px;
+}
+
+/* Popups */
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 30px;
+  width: auto;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.white-popup img {
+	max-width: 200px;
+	margin-right: 20px;
+	float: left;
 }
 
 
