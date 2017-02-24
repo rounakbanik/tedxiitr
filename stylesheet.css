@@ -212,14 +212,19 @@ body {
 	margin-bottom: 0px;
 }
 
-.venue {
-	
-}
-
 .venue p {
 	border-left: 1px solid white;
 	margin-left: 5px;
 	padding-left: 15px;
+}
+
+#countdown {
+	font-size: 170%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: lighter;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 }
 
 /* Theme Styles */
