@@ -325,8 +325,8 @@ body {
 
 
 .sponsors img {
-	height: 180px;
-	max-width: 600px;
+	height: 130px;
+	max-width: 320px;
 }
 
 /* Team Styles */
@@ -433,4 +433,6 @@ header {
 .nav-up {
     top: -120px;
 }
+
+
 
