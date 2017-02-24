@@ -192,7 +192,7 @@ body {
 
 .main-frame-content {
 	position: absolute;
-	top: 15%;
+	top: 10%;
 	color: #ddd;
 	padding: 15px;
 	margin-left: 80px;
@@ -425,6 +425,10 @@ footer p {
 }
 
 footer a {
+	color: #9A9FA0;
+}
+
+footer a:hover {
 	color: #9A9FA0;
 }
 
